@@ -1,3 +1,5 @@
+
+
 .App {
   text-align: center;
 }
@@ -13,7 +15,9 @@
   }
 }
 
-.App-header {
+
+
+.Dash-bg {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -27,6 +31,66 @@
 .App-link {
   color: #61dafb;
 }
+
+.title1{
+  color: white;
+  position: absolute;
+  top: 220px;
+  left: 200px;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 56px;
+}
+
+.title2{
+  color: white;
+  position: absolute;
+  top: 280px;
+  left: 200px;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 56px;
+}
+
+.title3{
+  color: white;
+  position: absolute;
+  top: 340px;
+  left: 200px;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 56px;
+}
+
+.motto{
+  position: absolute;
+  left:1100px;
+  top: 220px;
+  color: white;
+}
+
+.introDiv {
+  color: white;
+  width: 650px;
+  position: absolute;
+  top: 450px;
+  left: 200px;
+  text-align: justify;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.overlay{
+  background-color: rgba(184, 129, 28, 0.25);
+  position: absolute;
+  top: 200;
+  left: 0;
+  width: 1920px;
+  height: 1080px;
+}
+
+
+
 
 @keyframes App-logo-spin {
   from {
