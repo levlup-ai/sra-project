@@ -89,7 +89,67 @@
   height: 1080px;
 }
 
+.pass{
+  position: absolute;
+  top: 450px;
+  left: 1215px;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 28px;
+  color: white;
 
+}
+
+.email{
+  position: absolute;
+  top: 350px;
+  left: 1150px;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 28px;
+  color: white;
+
+}
+
+.emailLabel{
+  margin-right: 20px;
+}
+
+.passLabel {
+  margin-right: 20px;
+}
+
+
+input {
+  width: 200px;
+  padding: 8px 15px;
+  border-radius: 80px;
+  border-style: solid;
+  border-color: #000;
+}
+
+.btn {
+  border-style: solid;
+  border-color: #000;
+  border-radius: 10px;
+  background: white;
+  padding: 15px 40px;
+  color: #000000;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: Montserrat;
+  font-weight: 600;
+  margin-left: 1300px;
+  margin-top: 520px;
+
+}
+
+button:hover {
+  transition: all 0.2s ease-in-out;
+  background: #FFCF3E;
+  color: #000;
+}
 
 
 @keyframes App-logo-spin {

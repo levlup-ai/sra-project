@@ -1,0 +1,58 @@
+
+.about{
+    background-color: #FAF9F6;
+}
+.headline {
+    font-size: 24px;
+    margin-top: 35px;
+    text-align: center;
+    color: #FFCF3E;
+    width: 900px;
+    margin-left:450px;
+}
+
+.title {
+    font-size: 48px;
+    text-align: center;
+    margin-top:100px;
+    color: #FFCF3E;
+}
+
+.info {
+    font-size: 18px;
+    text-align: center;
+    margin-top:50px;
+    font-weight: 500;
+    width: 1200px;
+    margin-left: 300px;
+}
+
+.info2 {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 500;
+    width: 1200px;
+    margin-left: 300px;
+}
+
+.teamImage {
+    margin-left: 600px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.abtBtn {
+    margin-left: 825px;
+    margin-bottom: 100px;
+    border-style: solid;
+    border-color: #000;
+    border-radius: 10px;
+    background: white;
+    padding: 15px 40px;
+    color: #000000;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Montserrat;
+    font-weight: 600;
+}
