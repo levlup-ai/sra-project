@@ -2,7 +2,7 @@ import React from 'react';
 import './about.css';
 import teamimg from'./team-img.jpg';
 
-
+//The About Us Page
   
 const About = () => {
   return (
@@ -17,10 +17,15 @@ const About = () => {
         ─currently training diverse cohorts of startup enthusiasts between the age of 18-24 who seek to start a career at startups and
          innovative SMEs.</p><br/>
 
+      {/* Could not use a <br> tag in one instance of the <p> tag so I seperated them and created two paragraphs and styled them individually*/}
+
       <p className='info2'>Training, mentoring, events – we’ve barely scratched the surface. We will not rest until every person regardless
        of age, background or education is given the opportunity to be part of something amazing, and simply do what they love.</p>
 
       <img src={teamimg} alt="Team Image" className="teamImage"/>
+
+      {/*Button for Company's to Apply*/}
+      {/*Doesn't do anything at the moment*/}
 
       <button type="submit" className="abtBtn">
         Apply Now

@@ -1,7 +1,10 @@
 
+// Style components of the NavBar
+
 import { NavLink as Link } from 'react-router-dom';
 import styled from 'styled-components';
-  
+
+//Navbar Styling
 export const Nav = styled.nav`
   background-color: rgb(0 , 0, 0, 0.35);
   height: 85px;
@@ -12,7 +15,8 @@ export const Nav = styled.nav`
   top:0;  
 
 `;
-  
+ 
+//NavLink Styling
 export const NavLink = styled(Link)`
   color: white;
   display: flex;
@@ -30,10 +34,8 @@ export const NavLink = styled(Link)`
     color: #FFCF3E;
   }
 `;
-  
 
 
-  
 export const NavMenu = styled.div`
   display: flex;
   align-items: center;
@@ -42,7 +44,8 @@ export const NavMenu = styled.div`
 
   }
 `;
-  
+
+// NavButton Styling
 export const NavBtn = styled.nav`
   display: flex;
   align-items: center;
@@ -53,6 +56,7 @@ export const NavBtn = styled.nav`
   
 export const NavBtnLink = styled(Link)`
   border-radius: 10px;
+  border-style: solid;
   background: #FFCF3E;
   padding: 15px 40px;
   color: #000000;

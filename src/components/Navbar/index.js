@@ -1,18 +1,3 @@
-/*import React from 'react'
-import { Link } from 'react-router-dom'
-
-
-const Navbar = () => {
-    return (
-        <div className = 'Navbar'>
-
-            <h1>SRA</h1>
-
-        </div>
-    )
-}
-
-export default Navbar */
 
 import React from 'react';
 import {
@@ -28,7 +13,7 @@ const Navbar = () => {
   return (
     <>
       <Nav>
-  
+        {/* Create NavMenu and NavLinks for the Navbar*/}
         <NavMenu>
           <NavLink to='/' className="Logo">
               SRA
@@ -42,8 +27,8 @@ const Navbar = () => {
           <NavLink to='/' className="Contact" activeStyle>
             Contact Us
           </NavLink>
-          {/* Second Nav */}
-          {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
+
+          {/* Nav Button */}
         </NavMenu>
         <NavBtn>
           <NavBtnLink to='/signin'>Sign Up</NavBtnLink>
